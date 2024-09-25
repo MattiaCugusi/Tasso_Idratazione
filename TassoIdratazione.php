@@ -11,6 +11,8 @@
       $peso = 60;
       $millilitri = 30;
 
+      $tasso = $peso * $millilitri;
+
       echo "<h1>Mattia Cugusi</h1>";
 
       echo "<p>Il tasso di idratazione di una persona che pesa " . $peso . "kg e' di " . $tasso;
